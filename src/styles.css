@@ -1,0 +1,80 @@
+/* Set the background image for the entire body */
+body {
+  background-image: url("./public/AI.png"); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-size: cover; /* Cover the entire element with the background image */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-attachment: fixed; /* Fix the background image in place */
+  color: #1d4f91;
+  font: Arial;
+}
+
+.column {
+  width: 50%;
+}
+
+/* AI MEETS CANCER RESEARCH SYMPOSIUM */
+#myHeader {
+  text-align: left;
+  font-size: 75px;
+  width: 60%;
+  top: 0px;
+}
+
+/* Nov 29 3 2023 */
+#myDate {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  font-size: 50px;
+  width: 20%;
+  text-align: right;
+}
+
+a {
+  margin: 0;
+  right: 10px;
+  position: relative;
+}
+
+#myFirst {
+  text-transform: uppercase;
+  font-size: medium;
+  text-align: right;
+  left: 20px;
+  line-height: 1;
+}
+
+@media print {
+  footer {
+    page-break-after: always;
+  }
+}
+
+/* 12:00-13:15 2ND SESSION CANCER RESEARCH */
+#time {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+/* pi and description */
+#pi {
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+/* date at top of daily schedule */
+#day {
+  text-transform: bolder;
+  font-size: xx-large;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+#column1 {
+  width: 50%;
+  float: left;
+}
+
+#column3 {
+  width: 50%;
+  float: left;
+}
