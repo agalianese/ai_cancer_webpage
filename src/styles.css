@@ -1,6 +1,6 @@
 /* Set the background image for the entire body */
 body {
-  background-image: url("./public/AI.png"); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
+  background-image: url("AI.png"); /* Replace 'path-to-your-image.jpg' with the actual path to your image file */
   background-size: cover; /* Cover the entire element with the background image */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-attachment: fixed; /* Fix the background image in place */

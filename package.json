@@ -1,13 +1,17 @@
 {
-  "name": "vanilla",
+  "name": "AI meets cancer research symposium",
   "version": "1.0.0",
-  "description": "JavaScript example starter project",
+  "description": "website built by Angelica Galianese 09/10/2023",
   "main": "index.html",
   "scripts": {
-    "start": "parcel index.html --open",
+    "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "dependencies": { "parcel-bundler": "^1.6.1" },
+  "dependencies": {
+    "npm": "^10.1.0",
+    "opn": "^6.0.0",
+    "parcel-bundler": "^1.6.1"
+  },
   "devDependencies": {
     "@babel/core": "7.2.0",
     "typescript": "4.4.4"
@@ -15,5 +19,8 @@
   "resolutions": {
     "@babel/preset-env": "7.13.8"
   },
-  "keywords": ["javascript", "starter"]
+  "keywords": [
+    "javascript",
+    "starter"
+  ]
 }
